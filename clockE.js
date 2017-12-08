@@ -8,6 +8,7 @@ setTheCountdown('.civ-clock',((new Date("2017/12/15 09:30:00"))- (new Date()))/1
 setTheCountdown('.calc1-clock',((new Date("2017/12/18 14:00:00"))- (new Date()))/1000);
 setTheCountdown('.calc2-clock',((new Date("2017/12/19 14:30:00"))- (new Date()))/1000);
 setTheCountdown('.alex-clock',((new Date("2018/01/05 00:00:01"))- (new Date()))/1000);
+setTheCountdown('.sha-clock',((new Date("2018/08/20 00:00:01"))- (new Date()))/1000);
 
 
 function setTheCountdown(objectName, time) {
