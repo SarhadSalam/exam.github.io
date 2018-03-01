@@ -1,12 +1,11 @@
 //Lin Alg Date
 //6:30 PM December 08 2017
 
-setTheCountdown('.lin-clock',((new Date("2017/12/08 18:30:00"))- (new Date()))/1000);
-setTheCountdown('.esp-clock',((new Date("2017/12/11 18:30:00"))- (new Date()))/1000);
-setTheCountdown('.che-clock',((new Date("2017/12/13 14:30:00"))- (new Date()))/1000);
-setTheCountdown('.civ-clock',((new Date("2017/12/14 14:30:00"))- (new Date()))/1000);
-setTheCountdown('.calc1-clock',((new Date("2017/12/18 14:30:00"))- (new Date()))/1000);
-setTheCountdown('.calc2-clock',((new Date("2017/12/19 09:30:00"))- (new Date()))/1000)
+setTheCountdown('.ece110-clock',((new Date("2018/04/23 18:30:00"))- (new Date()))/1000);
+setTheCountdown('.aps105-clock',((new Date("2018/04/24 18:30:00"))- (new Date()))/1000);
+setTheCountdown('.mie100-clock',((new Date("2018/04/26 14:00:00"))- (new Date()))/1000);
+setTheCountdown('.eco101-clock',((new Date("2018/04/27 14:00:00"))- (new Date()))/1000);
+setTheCountdown('.mat187-clock',((new Date("2018/04/28 14:00:00"))- (new Date()))/1000);
 
 setTheCountdown('.sha-bday',((new Date("2017/12/25 00:00:01"))- (new Date()))/1000);
 function setTheCountdown(objectName, time) {
