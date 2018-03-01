@@ -7,7 +7,7 @@ setTheCountdown('.mie100-clock',((new Date("2018/04/26 14:00:00"))- (new Date())
 setTheCountdown('.eco101-clock',((new Date("2018/04/27 14:00:00"))- (new Date()))/1000);
 setTheCountdown('.mat187-clock',((new Date("2018/04/28 14:00:00"))- (new Date()))/1000);
 
-setTheCountdown('.sha-bday',((new Date("2017/12/25 00:00:01"))- (new Date()))/1000);
+setTheCountdown('.sha-bday',((new Date("2018/04/20 00:00:01"))- (new Date()))/1000);
 function setTheCountdown(objectName, time) {
 var clock = $(objectName).FlipClock(time,{
         countdown: true,
